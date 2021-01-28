@@ -1,0 +1,28 @@
+.landing-carousel{
+  background-color: rgba(18, 3, 56, 0.95);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.landing-carousel h2{
+  color: #fff;
+  font-weight: 900;
+}
+
+.landing-carousel-content{
+  text-align: center;
+}
+
+.landing-carousel-content h2{
+  margin-top: 25%;
+}
+
+.landing-carousel-content p{
+  padding: 0px 15px;
+}
+
+@media only screen and (max-width: 770px){
+  .landing-carousel-content h2{
+    margin-top: 10%;
+  }
+}

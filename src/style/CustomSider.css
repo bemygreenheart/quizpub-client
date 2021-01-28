@@ -1,0 +1,53 @@
+
+.custom-sider-wrapper{
+  position: fixed;
+  top: 0;
+  left: -200px;
+  height: 100vh;
+  width: 200px;
+  transition: 300ms ease-in-out;
+  z-index: 2;
+}
+
+.folded{
+  left: 0;
+  transition: 300ms ease-in-out;
+}
+
+.custom-sider{
+  position: relative;
+  width: 200px;
+  height: 100%;
+  background-color: rgb(18, 3, 56);
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.custom-sider-item{
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+}
+
+.custom-sider-item:hover{
+  background-color: #1890ff;
+}
+
+.custom-sider-button{
+  position: absolute;
+  top: 50px;
+  left: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color:#120338;
+}
+
+.custom-sider-button:hover{
+  background-color: rgba(18, 3, 56, 0.9);
+  box-shadow: 3px 2px 3px 2px #120338;
+}
+
+.sider-item-icon{
+  padding-right: 15px;
+}

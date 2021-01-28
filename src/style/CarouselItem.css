@@ -1,0 +1,30 @@
+.carousel-item{
+  position: relative;
+  text-align: center;
+}
+
+.carousel-item img{
+  width: 100%;
+}
+
+.carousel-item-content{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.carousel-item-content h3{
+  color: #fff;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 770px){
+  .carousel-item-content{
+    top: 15%;
+  }
+}

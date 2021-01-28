@@ -1,0 +1,18 @@
+.showcase{
+  min-height: 300px;
+  max-height: 550px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showcase-buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.showcase-content h2{
+  color: rgb(240, 242, 245);
+  font-weight: 1000;
+}

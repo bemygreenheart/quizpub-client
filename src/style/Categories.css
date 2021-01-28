@@ -1,0 +1,22 @@
+.landing-page-categories{
+  margin: 20px 10px;
+  overflow-x: hidden;
+}
+
+.landing-page-categories h2{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+  color: #333;
+  font-size: 1.5rem;
+}
+.landing-page-category{
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.landing-page-category img{
+  width: 100%;
+  border-radius: 5px;
+}
