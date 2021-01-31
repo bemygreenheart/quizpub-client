@@ -1,0 +1,110 @@
+.login-page{
+  max-width: 550px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.signin-or-login{
+  display: flex;
+  color: #fff;
+}
+
+.signin-or-login div{
+  width: 50%;
+  text-align: center;
+}
+
+.signin-or-login div:hover{
+  color: #0000ff;
+  cursor: pointer;
+}
+
+.login-active{
+  border-bottom: 3px solid #444;
+}
+
+.form-wrapper{
+ margin: 20px 10px;
+ padding: 20px 35px;
+ background-color: #120338;
+ border-radius: 10px;
+}
+.input-wrapper{
+  width: 100%;
+  margin: 15px 0;
+}
+
+.custom-input{
+width: 100%;
+height: 35px;
+background-color: rgba(18, 3, 56, 0);
+color: #fff;
+font-size: 0.9rem;
+border: none;
+padding: 0 10px;
+border-bottom: 1px solid #ddd ;
+}
+
+.custom-input:focus{
+  outline: none;
+  border-bottom: 3px solid #fff;
+}
+
+.form-header{
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
+.buttons-flex{
+  display: flex;
+}
+
+.buttons-flex div{
+  width: 40%;
+  margin: auto ;
+  margin-top: 20px;
+}
+
+.buttons-flex div button{
+  width: 100%;
+  padding: 3px 0px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.buttons-flex div button:hover{
+  cursor: pointer;
+  box-shadow: 3px 2px 3px 2px #bbb;
+}
+
+.buttons-flex div button[type="cancel"]{
+  background-color: #f6f6f6;
+}
+
+.buttons-flex div button[type="submit"]{
+  background-color: #008000;
+}
+
+.social-media-login{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.social-media-login div{
+  display: inline-block;
+  padding: 0 10px;
+  margin: 30px 10px 0 10px;
+  background-color: #383855;
+  border-radius: 50%;
+}
+
+.social-media-login div:hover{
+  background-color: #f6f6f6;
+  color: #333;
+}
