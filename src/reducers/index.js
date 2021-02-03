@@ -1,18 +1,11 @@
 import {combineReducers} from 'redux';
 import {reducer as formReducer} from 'redux-form';
-
-const loginReducer = (state = null, action)=>{
-  if (action.type === "LOGIN"){
-    console.log(action.payload);
-  }
-  return state
-}
-
-
-
+import auth from './auth';
 
 const reducers = combineReducers({
-  form: formReducer
+  form: formReducer,
+  auth : auth
+
 });
 
 export default reducers;

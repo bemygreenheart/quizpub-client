@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button } from 'antd';
+import {Link} from 'react-router-dom';
 import {FacebookFilled, GoogleOutlined, GithubOutlined} from '@ant-design/icons';
 import LoginForm from '../utils/LoginForm';
 import SigninForm from '../utils/SigninForm';
@@ -23,6 +23,9 @@ const LoginPage = ()=>{
         <div><GithubOutlined/></div>
         <div><GoogleOutlined/></div>
         <div><FacebookFilled/></div>
+      </div>
+      <div>
+        <p style={{color: "#fff", textAlign:"center", marginTop:"20px"}}>Forgot your password? <Link to="/password-reset/" className="">Reset Here</Link></p>
       </div>
       </div>
     </div>

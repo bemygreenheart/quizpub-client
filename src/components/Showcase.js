@@ -6,7 +6,7 @@ import {Button} from 'antd';
 class Showcase extends React.Component{
 
   render(){
-    const style ={background: `url(${process.env.PUBLIC_URL}/images/showcase-bg.jpg) center center/cover`,
+    const style ={background: `url(${process.env.PUBLIC_URL}/static/images/showcase-bg.jpg) center center/cover`,
     }
 
     return(

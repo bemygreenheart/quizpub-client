@@ -11,22 +11,22 @@ class Categories extends React.Component{
         <Row gutter={16}>
           <Col xs={24} md={12} lg={6}>
             <div className="landing-page-category">
-            <img src={`${process.env.PUBLIC_URL}/images/prog.jpg`} alt="programming" />
+            <img src={`${process.env.PUBLIC_URL}/static/images/prog.jpg`} alt="programming" />
             </div>
           </Col>
           <Col xs={24} md={12} lg={6}>
             <div className="landing-page-category">
-            <img src={`${process.env.PUBLIC_URL}/images/math.jpg`} alt="mathematics" />
+            <img src={`${process.env.PUBLIC_URL}/static/images/math.jpg`} alt="mathematics" />
             </div>
           </Col>
           <Col xs={24} md={12} lg={6}>
             <div className="landing-page-category">
-              <img src={`${process.env.PUBLIC_URL}/images/tech.jpg`} alt="technology" />
+              <img src={`${process.env.PUBLIC_URL}/static/images/tech.jpg`} alt="technology" />
             </div>
           </Col>
           <Col xs={24} md={12} lg={6}>
             <div className="landing-page-category">
-              <img src={`${process.env.PUBLIC_URL}/images/others.jpg`} alt="others" />
+              <img src={`${process.env.PUBLIC_URL}/static/images/others.jpg`} alt="others" />
             </div>
           </Col>
         </Row>

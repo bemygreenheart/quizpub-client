@@ -5,7 +5,7 @@ class CarouselItem extends React.Component{
   render(){
     return(
       <div className="carousel-item">
-        <img src={process.env.PUBLIC_URL + `/images/${this.props.image}.jpg`}></img>
+        <img src={process.env.PUBLIC_URL + `/static/images/${this.props.image}.jpg`}></img>
         <div className="carousel-item-content">
           <h3>QUIZPUB IS FOR</h3>
           <p>{this.props.text}</p>

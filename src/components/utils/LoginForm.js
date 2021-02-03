@@ -2,27 +2,26 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {Field, reduxForm} from 'redux-form';
 
-import {loginActionCreate} from '../../actions';
+import {login} from '../../actions/auth';
 
 class LoginForm extends React.Component{
 
   customInput({input, type, placeholder}){
     return (
       <div className="input-wrapper">
-        <input className="custom-input" type={type} {...input} placeholder={placeholder}/>
+        <input className="custom-input" type={type} {...input} placeholder={placeholder} required/>
       </div>
     );
   }
 
   onFormSubmit = (formValues)=>{
-    console.log(loginActionCreate);
-    this.props.loginActionCreate(formValues);
+    this.props.login(formValues.email, formValues.password);
   }
 
   render(){
     return(
       <form onSubmit={this.props.handleSubmit(this.onFormSubmit)}>
-        <Field name="username" type="text" placeholder="Username" component={this.customInput} />
+        <Field name="email" type="email" placeholder="Email" component={this.customInput} />
         <Field name="password" type="password" placeholder="Password" component={this.customInput}/>
         <div className="buttons-flex">
           <div><button type="cancel" className="login-button">Cancel</button></div>
@@ -33,7 +32,7 @@ class LoginForm extends React.Component{
   }
 }
 
-const CustomLoginForm = connect(null, {loginActionCreate})(LoginForm);
+const CustomLoginForm = connect(null, {login})(LoginForm);
 
 export default reduxForm({
   form : "loginForm"
